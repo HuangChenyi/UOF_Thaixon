@@ -1418,6 +1418,14 @@
             <Value Culture="vi" Name="ApplicantInfo" />
           </Display>
         </FieldItem>
+        <FieldItem DesignUI="~/CDS/WKF_Fields/SetupField_OrderInfo.aspx" WriteUI="~/CDS/WKF_Fields/OrderInfo.ascx" FieldName="OrderInfo">
+          <Display>
+            <Value Culture="zh-TW" Name="訂單資訊" />
+            <Value Culture="zh-CN" Name="訂單資訊" />
+            <Value Culture="en-US" Name="訂單資訊" />
+            <Value Culture="vi" Name="訂單資訊" />
+          </Display>
+        </FieldItem>
       </OptionalField>
     </Field>
   </WKF>

@@ -14,6 +14,15 @@ namespace Training.UCO
         DemoPO m_DemoPO = new DemoPO();
 
 
+        public OrderDataSet GetOrderListByOrderID(string OrderID)
+        {
+            return m_DemoPO.GetOrderListByOrderID(OrderID);
+        }
+
+        public OrderDataSet GetOrderList(string customerID)
+        {
+           return  m_DemoPO.GetOrderList(customerID);
+        }
         public DataTable GetUserData(string groupId)
         {
             return m_DemoPO.GetUserData(groupId);

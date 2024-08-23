@@ -94,6 +94,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DemoDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Data\OrderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="PO\DemoPO.cs" />
     <Compile Include="PO\ExtSite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -124,6 +129,17 @@
     </None>
     <None Include="Data\DemoDataSet.xss">
       <DependentUpon>DemoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data\OrderDataSet.xsc">
+      <DependentUpon>OrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Data\OrderDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\OrderDataSet.xss">
+      <DependentUpon>OrderDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

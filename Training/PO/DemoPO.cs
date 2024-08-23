@@ -171,6 +171,70 @@ namespace Training.PO
             this.m_db.ExecuteNonQuery(cmdTxt);
         }
 
+        internal OrderDataSet GetOrderList(string customerID)
+        {
+            string connStr= System.Configuration.ConfigurationManager.ConnectionStrings["connTOERP"].ConnectionString;
+            m_db = new Ede.Uof.Utility.Data.DatabaseHelper(connStr);
 
+            string cmdTxt = @"SELECT  [OrderID]
+      ,[CustomerID]
+      ,[EmployeeID]
+      ,[OrderDate]
+      ,[RequiredDate]
+      ,[ShippedDate]
+      ,[ShipVia]
+      ,[Freight]
+      ,[ShipName]
+      ,[ShipAddress]
+      ,[ShipCity]
+      ,[ShipRegion]
+      ,[ShipPostalCode]
+      ,[ShipCountry]
+  FROM [dbo].[Orders]
+WHERE CustomerID LIKE @CustomerID";
+
+
+        
+            m_db.AddParameter("CustomerID", $"%{customerID}%");
+            OrderDataSet ds = new OrderDataSet();
+            ds.Load(m_db.ExecuteReader(cmdTxt), LoadOption.OverwriteChanges, ds.Orders);
+
+
+            m_db = new Ede.Uof.Utility.Data.DatabaseHelper();
+            return ds;
+        }
+
+        internal OrderDataSet GetOrderListByOrderID(string OrderID)
+        {
+            string connStr = System.Configuration.ConfigurationManager.ConnectionStrings["connTOERP"].ConnectionString;
+            m_db = new Ede.Uof.Utility.Data.DatabaseHelper(connStr);
+
+            string cmdTxt = @"SELECT  [OrderID]
+      ,[CustomerID]
+      ,[EmployeeID]
+      ,[OrderDate]
+      ,[RequiredDate]
+      ,[ShippedDate]
+      ,[ShipVia]
+      ,[Freight]
+      ,[ShipName]
+      ,[ShipAddress]
+      ,[ShipCity]
+      ,[ShipRegion]
+      ,[ShipPostalCode]
+      ,[ShipCountry]
+  FROM [dbo].[Orders]
+WHERE OrderID = @OrderID";
+
+
+
+            m_db.AddParameter("OrderID", OrderID);
+            OrderDataSet ds = new OrderDataSet();
+            ds.Load(m_db.ExecuteReader(cmdTxt), LoadOption.OverwriteChanges, ds.Orders);
+
+
+            m_db = new Ede.Uof.Utility.Data.DatabaseHelper();
+            return ds;
+        }
     }
 }

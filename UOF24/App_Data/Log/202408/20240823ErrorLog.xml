@@ -1,3 +1,132 @@
 ﻿<Event eventID="c9f38147-bea1-41c3-b59e-5b607d4375c0" LogTime="2024/08/23 09:32:12" User="" Url="/UOF_Thaixon/Login/Authentication.aspx" Assembly="Ede.Uof.Web, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
 LoginHelper.LoginStates=Nonmal
 </Event>
+<Event eventID="c1ba796f-fdda-4159-9619-8acba6d317f3" LogTime="2024/08/23 15:36:33" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_Thaixon/WKF/FormUse/ScriptPrint.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.Data.SqlClient.SqlException (0x80131904): 參數化查詢 &#39;(@GROUP_ID nvarchar(4000))
+SELECT GROUP_ID, GROUP_NAME ,PARENT_&#39; 必須有參數 &#39;@GROUP_ID&#39;，但未提供。
+   於 Ede.Uof.Utility.Data.DatabaseHelper.HandleExceptions(Exception ex) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 616
+   於 Ede.Uof.Utility.Data.DatabaseHelper.ExecuteDataSet(String query, CommandType commandtype, ConnectionState connectionstate) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 588
+   於 Ede.Uof.EIP.Organization.Util.BaseGroupPO.QueryGroup(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroupPO.cs: 行 38
+   於 Ede.Uof.EIP.Organization.Util.BaseGroup..ctor(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroup.cs: 行 30
+   於 WKF_OptionalFields_ApplicantInfo.GetFactroy(String groupId) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 244
+   於 WKF_OptionalFields_ApplicantInfo.SetField(VersionField versionField) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 200
+   於 WKF_OptionalFields_ApplicantInfo.Page_Load(Object sender, EventArgs e) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 39
+   於 System.Web.UI.Control.OnLoad(EventArgs e)
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:75b96896-9ba7-455d-b8d4-0a0f7f309aac
+Error Number:8178,State:1,Class:16
+</Event>
+<Event eventID="afc0ab4f-15b5-4091-ab3d-de80cdd98044" LogTime="2024/08/23 15:40:09" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_Thaixon/WKF/FormUse/ScriptPrint.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.Data.SqlClient.SqlException (0x80131904): 參數化查詢 &#39;(@GROUP_ID nvarchar(4000))
+SELECT GROUP_ID, GROUP_NAME ,PARENT_&#39; 必須有參數 &#39;@GROUP_ID&#39;，但未提供。
+   於 Ede.Uof.Utility.Data.DatabaseHelper.HandleExceptions(Exception ex) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 616
+   於 Ede.Uof.Utility.Data.DatabaseHelper.ExecuteDataSet(String query, CommandType commandtype, ConnectionState connectionstate) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 588
+   於 Ede.Uof.EIP.Organization.Util.BaseGroupPO.QueryGroup(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroupPO.cs: 行 38
+   於 Ede.Uof.EIP.Organization.Util.BaseGroup..ctor(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroup.cs: 行 30
+   於 WKF_OptionalFields_ApplicantInfo.GetFactroy(String groupId) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 244
+   於 WKF_OptionalFields_ApplicantInfo.SetField(VersionField versionField) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 200
+   於 WKF_OptionalFields_ApplicantInfo.Page_Load(Object sender, EventArgs e) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 39
+   於 System.Web.UI.Control.OnLoad(EventArgs e)
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:8b51e706-9d1b-4f14-9059-386561b32bb3
+Error Number:8178,State:1,Class:16
+</Event>
+<Event eventID="17d95e7c-2c44-4221-acc9-fe3b9530d0b3" LogTime="2024/08/23 15:58:57" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_Thaixon/WKF/FormUse/ScriptPrint.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.Data.SqlClient.SqlException (0x80131904): 參數化查詢 &#39;(@GROUP_ID nvarchar(4000))
+SELECT GROUP_ID, GROUP_NAME ,PARENT_&#39; 必須有參數 &#39;@GROUP_ID&#39;，但未提供。
+   於 Ede.Uof.Utility.Data.DatabaseHelper.HandleExceptions(Exception ex) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 616
+   於 Ede.Uof.Utility.Data.DatabaseHelper.ExecuteDataSet(String query, CommandType commandtype, ConnectionState connectionstate) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 588
+   於 Ede.Uof.EIP.Organization.Util.BaseGroupPO.QueryGroup(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroupPO.cs: 行 38
+   於 Ede.Uof.EIP.Organization.Util.BaseGroup..ctor(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroup.cs: 行 30
+   於 WKF_OptionalFields_ApplicantInfo.GetFactroy(String groupId) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 244
+   於 WKF_OptionalFields_ApplicantInfo.SetField(VersionField versionField) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 200
+   於 WKF_OptionalFields_ApplicantInfo.Page_Load(Object sender, EventArgs e) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 39
+   於 System.Web.UI.Control.OnLoad(EventArgs e)
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:bebc8eb9-d3e4-4476-bf27-1b9ef9ec3eca
+Error Number:8178,State:1,Class:16
+</Event>
+<Event eventID="00a23256-bada-412d-acce-9aa9a464d5d3" LogTime="2024/08/23 15:59:14" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_Thaixon/CDS/WKF_Fields/Order/OrderList.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.Data.SqlClient.SqlException (0x80131904): 無效的物件名稱 &#39;dbo.Orders&#39;。
+   於 Ede.Uof.Utility.Data.DatabaseHelper.HandleExceptions(Exception ex) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 616
+   於 Ede.Uof.Utility.Data.DatabaseHelper.ExecuteReader(String query, CommandType commandtype, ConnectionState connectionstate) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 509
+   於 Training.PO.DemoPO.GetOrderList(String customerID) 於 D:\技轉教學\Thaixon\UOF_Training\Training\PO\DemoPO.cs: 行 200
+   於 Training.UCO.DemoUCO.GetOrderList(String customerID) 於 D:\技轉教學\Thaixon\UOF_Training\Training\UCO\DemoUCO.cs: 行 19
+   於 CDS_WKF_Fields_Order_OrderList.BindOrderData() 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\Order\OrderList.aspx.cs: 行 23
+   於 CDS_WKF_Fields_Order_OrderList.Page_Load(Object sender, EventArgs e) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\Order\OrderList.aspx.cs: 行 16
+   於 System.Web.UI.Control.OnLoad(EventArgs e)
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:0bce3769-dbee-457e-9d17-0dee881628f1
+Error Number:208,State:1,Class:16
+</Event>
+<Event eventID="fc06b455-bbf2-432d-9702-fcbf046e0993" LogTime="2024/08/23 16:02:44" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_Thaixon/CDS/WKF_Fields/Order/OrderList.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.Data.SqlClient.SqlException (0x80131904): 無法開啟登入所要求的資料庫 &quot;NORTHWIND&quot;。登入失敗。
+使用者 &#39;UOFDEV&#39; 的登入失敗。
+   於 Ede.Uof.Utility.Data.DatabaseHelper.HandleExceptions(Exception ex) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 616
+   於 Ede.Uof.Utility.Data.DatabaseHelper.ExecuteReader(String query, CommandType commandtype, ConnectionState connectionstate) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 509
+   於 Training.PO.DemoPO.GetOrderList(String customerID) 於 D:\技轉教學\Thaixon\UOF_Training\Training\PO\DemoPO.cs: 行 200
+   於 Training.UCO.DemoUCO.GetOrderList(String customerID) 於 D:\技轉教學\Thaixon\UOF_Training\Training\UCO\DemoUCO.cs: 行 19
+   於 CDS_WKF_Fields_Order_OrderList.BindOrderData() 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\Order\OrderList.aspx.cs: 行 23
+   於 CDS_WKF_Fields_Order_OrderList.Page_Load(Object sender, EventArgs e) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\Order\OrderList.aspx.cs: 行 16
+   於 System.Web.UI.Control.OnLoad(EventArgs e)
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:6eced808-a87a-4297-af26-2441890ba8e5
+Error Number:4060,State:1,Class:11
+</Event>
+<Event eventID="dc71c8f9-d54c-4624-8d9a-80ac22c332d6" LogTime="2024/08/23 16:14:57" User="c496e32b-0968-4de5-95fc-acf7e5a561c0" Url="/UOF_Thaixon/WKF/FormUse/ScriptPrint.aspx" Assembly="Ede.Uof.Utility.Page, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+System.Data.SqlClient.SqlException (0x80131904): 參數化查詢 &#39;(@GROUP_ID nvarchar(4000))
+SELECT GROUP_ID, GROUP_NAME ,PARENT_&#39; 必須有參數 &#39;@GROUP_ID&#39;，但未提供。
+   於 Ede.Uof.Utility.Data.DatabaseHelper.HandleExceptions(Exception ex) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 616
+   於 Ede.Uof.Utility.Data.DatabaseHelper.ExecuteDataSet(String query, CommandType commandtype, ConnectionState connectionstate) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Data\DatabaseHelper.cs: 行 588
+   於 Ede.Uof.EIP.Organization.Util.BaseGroupPO.QueryGroup(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroupPO.cs: 行 38
+   於 Ede.Uof.EIP.Organization.Util.BaseGroup..ctor(String groupId) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.Organization.Util\BaseGroup.cs: 行 30
+   於 WKF_OptionalFields_ApplicantInfo.GetFactroy(String groupId) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 244
+   於 WKF_OptionalFields_ApplicantInfo.SetField(VersionField versionField) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 200
+   於 WKF_OptionalFields_ApplicantInfo.Page_Load(Object sender, EventArgs e) 於 D:\技轉教學\Thaixon\UOF_Training\UOF24\CDS\WKF_Fields\ApplicantInfo.ascx.cs: 行 39
+   於 System.Web.UI.Control.OnLoad(EventArgs e)
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Control.LoadRecursive()
+   於 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:9468226c-e352-47f0-839a-8a667e455b9d
+Error Number:8178,State:1,Class:16
+</Event>
