@@ -197,7 +197,13 @@ public partial class WKF_OptionalFields_ApplicantInfo : WKF_FormManagement_Versi
                 UserUCO userUCO = new UserUCO();
                 //取得申請者資訊
                 EBUser ebUser = userUCO.GetEBUser(base.ApplicantGuid);
-                lblCompany.Text = GetFactroy(base.ApplicantGroupId);
+                string groupId= base.ApplicantGroupId;
+                if(string.IsNullOrEmpty(groupId))
+                {
+                    groupId=ebUser.GroupID;
+                }
+
+                lblCompany.Text = GetFactroy(groupId);
                 lblFactory.Text = ebUser.Option2;
                 lblDeptName.Text = ebUser.GroupName;
                 lblDeptCode.Text = ebUser.Option1;
