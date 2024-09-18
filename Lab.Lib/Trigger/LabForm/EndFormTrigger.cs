@@ -21,14 +21,16 @@ namespace Lab.Lib.Tigger.LabForm
         public string GetFormResult(ApplyTask applyTask)
         {
             //表單預計的XML結構
-            //<Form formVersionId="6fd8fa9c-ecc2-41b3-8315-7c77d9e9e676">
-            //  <FormFieldValue>
-            //    <FieldItem fieldId="NO" fieldValue="" realValue="" enableSearch="True" />
-            //    <FieldItem fieldId="type" fieldValue="C" realValue="" enableSearch="True" customValue="@null" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
-            //    <FieldItem fieldId="item" fieldValue="AA" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
-            //    <FieldItem fieldId="amount" fieldValue="1234" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
-            //  </FormFieldValue>
-            //</Form>
+           //<Form formVersionId="6fd8fa9c-ecc2-41b3-8315-7c77d9e9e676">
+           //   <FormFieldValue>
+           //     <FieldItem fieldId="NO" fieldValue="" realValue="" enableSearch="True" />
+           //     <FieldItem fieldId="type" fieldValue="A" realValue="" enableSearch="True" customValue="@null" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
+           //     <FieldItem fieldId="item" fieldValue="AA" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
+           //     <FieldItem fieldId="amount" fieldValue="100" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
+           //   </FormFieldValue>
+           // </Form>
+
+           
 
             var fields = applyTask.Task.CurrentDocument.Fields;
 
@@ -37,12 +39,12 @@ namespace Lab.Lib.Tigger.LabForm
 
             //若要寫入的欄位是表單欄位的話可依下面參考方式寫入
             //若要寫入的欄位是表單資料的話，可依applyTask提供屬性寫入
-            //dr.AMOUNT = Convert.ToDecimal(fields["amount"].FieldValue);
-            //dr.CATEGORY_ID = ;
-            //dr.ITEM_NAME = ;
-            //dr.DOC_NBR = ;
-            //dr.FORM_RESULT = ;
-            //dr.TASK_ID = ;
+            dr.AMOUNT = Convert.ToDecimal(fields["amount"].FieldValue);
+            dr.CATEGORY_ID = fields["type"].FieldValue;
+            dr.ITEM_NAME = fields["item"].FieldValue;
+            dr.DOC_NBR = applyTask.FormNumber;
+            dr.FORM_RESULT =applyTask.FormResult.ToString() ;
+            dr.TASK_ID = applyTask.TaskId ;
 
             LabUCO uco = new LabUCO();
             uco.InsertLabFormData(dr);

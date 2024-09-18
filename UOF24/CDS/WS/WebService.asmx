@@ -6,6 +6,7 @@ using System.Web.Services;
 using System.Web.Services.Protocols;
 using System.Data;
 using System.Xml;
+using Ede.Uof.EIP.Organization;
 
 [WebService(Namespace = "http://tempuri.org/")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
@@ -158,15 +159,16 @@ public class WebService  : System.Web.Services.WebService {
     public string CheckedForm(string formInfo)
     {
 
-        // - <Form formVersionId="684034be-3cf5-4d47-9710-2ae8a090875c">
-        //- <FormFieldValue>
-        //  <FieldItem fieldId="NO" fieldValue="" realValue="" /> 
-        //  <FieldItem fieldId="A01" fieldValue="1" realValue="" fillerName="湯尼" fillerUserGuid="cb7b9862-6591-4b28-a6e6-c54d57eb00c7" fillerAccount="Tony" fillSiteId="" /> 
-        //  <FieldItem fieldId="A02" fieldValue="1" realValue="" fillerName="湯尼" fillerUserGuid="cb7b9862-6591-4b28-a6e6-c54d57eb00c7" fillerAccount="Tony" fillSiteId="" /> 
-        //  <FieldItem fieldId="A03" fieldValue="1" realValue="" fillerName="湯尼" fillerUserGuid="cb7b9862-6591-4b28-a6e6-c54d57eb00c7" fillerAccount="Tony" fillSiteId="" /> 
-        //  <FieldItem fieldId="A04" fieldValue="" realValue="" /> 
+        //<Form formVersionId="2664710a-4fa2-476a-988f-f84555569b5d">
+        //  <FormFieldValue>
+        //    <FieldItem fieldId="NO" fieldValue="" realValue="" enableSearch="True" />
+        //    <FieldItem fieldId="applyTitle" fieldValue="員工" realValue="" enableSearch="True" />
+        //    <FieldItem fieldId="A01" fieldValue="44" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
+        //    <FieldItem fieldId="A02" fieldValue="44" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
+        //    <FieldItem fieldId="A03" fieldValue="44" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
+        //    <FieldItem fieldId="A04" fieldValue="D@D" realValue="" enableSearch="True" fillerName="Tony" fillerUserGuid="c496e32b-0968-4de5-95fc-acf7e5a561c0" fillerAccount="Tony" fillSiteId="" />
         //  </FormFieldValue>
-        //  </Form>
+        //</Form>
         formInfo = HttpUtility.UrlDecode(formInfo);
 
         XmlDocument xmlDoc = new XmlDocument();
@@ -186,12 +188,30 @@ public class WebService  : System.Web.Services.WebService {
         try
         {
 
+
+            string title = xmlDoc.SelectSingleNode("./Form/FormFieldValue/FieldItem[@fieldId='applyTitle']").Attributes["fieldValue"].Value;
+
+            TitleUCO titleUCO = new TitleUCO();
+            var titleId= titleUCO.GetTitleID(title);
+
+            var titleDs= titleUCO.QuerySingle(titleId);
+
+                int Rank = ((TitleDataSet.TitleRow)titleDs.Title.Rows[0]).RANK;
+
             int price = int.Parse(xmlDoc.SelectSingleNode("/Form/FormFieldValue/FieldItem[@fieldId='A01']").Attributes["fieldValue"].Value);
 
-            if (price > 50)
+            if (price > 50 && Rank == 15 )
             {
                 returnValueElement.SelectSingleNode("/ReturnValue/Status").InnerText = "0";
-                returnValueElement.SelectSingleNode("/ReturnValue/Exception/Message").InnerText = "單價不可大於50";
+                returnValueElement.SelectSingleNode("/ReturnValue/Exception/Message").
+                        InnerText = "員工申請單價不可大於50";
+            }
+            else if (price > 70 && title == "經理" )
+            {
+                returnValueElement.SelectSingleNode("/ReturnValue/Status").InnerText = "0";
+                returnValueElement.SelectSingleNode("/ReturnValue/Exception/Message")
+                                    .InnerText = "經理申請單價不可大於70";
+
             }
             else
             {
@@ -209,8 +229,8 @@ public class WebService  : System.Web.Services.WebService {
         return returnValueElement.OuterXml;
     }
 
-    
-      [WebMethod]
+
+    [WebMethod]
     public string FormSignEvent(string formInfo)
     {
         formInfo = HttpUtility.UrlDecode(formInfo);
@@ -311,4 +331,4 @@ public class WebService  : System.Web.Services.WebService {
         return returnValueElement.OuterXml;
     }
 }
-    
+

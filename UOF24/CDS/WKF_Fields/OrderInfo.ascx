@@ -1,6 +1,34 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="OrderInfo.ascx.cs" Inherits="WKF_OptionalFields_OrderInfo" %>
 <%@ Reference Control="~/WKF/FormManagement/VersionFieldUserControl/VersionFieldUC.ascx" %>
 
+
+<script>
+
+    function CheckedData(source, arguments) {
+
+        
+      var num = $find("<%=rnumAmout.ClientID%>").get_value();
+        var applicantGuid='<%=base.ApplicantGuid%>'
+
+
+
+        var data = [applicantGuid,num];
+        var result = $uof.pageMethod.syncUc("CDS/WKF_Fields/OrderInfo.ascx", "CheckedData", data);
+
+        if (result == "") {
+            arguments.IsValid = true;
+        }
+        else {
+            arguments.IsValid = false;
+            $('#<%=CustomValidator1.ClientID%>').text(result);
+        }
+
+
+        return;
+    }
+
+</script>
+
 <table class="PopTable" style="width:600px">
     <tr>
         <td>
@@ -32,6 +60,25 @@
         </td>
         <td>
             <asp:Label ID="lblRequiredDate" runat="server" Text=""></asp:Label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+             <asp:Label ID="Label5" runat="server" Text="ApplyAmount"></asp:Label>
+        </td>
+        <td colspan="3">
+            <telerik:RadNumericTextBox ID="rnumAmout" runat="server" Value="0"
+                MinValue="0" MaxValue="100"></telerik:RadNumericTextBox>
+
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
+                ControlToValidate="rnumAmout" Display="Dynamic"
+                ErrorMessage="Amount is Required!"></asp:RequiredFieldValidator>
+            <asp:CustomValidator ID="CustomValidator1" runat="server" 
+                
+                ClientValidationFunction="CheckedData"  Display="Dynamic"
+                ErrorMessage="CustomValidator"></asp:CustomValidator>
+
+
         </td>
     </tr>
 </table>

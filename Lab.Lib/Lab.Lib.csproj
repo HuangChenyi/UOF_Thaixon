@@ -107,7 +107,9 @@
     <Compile Include="Trigger\LabForm\EndFormTrigger.cs" />
     <Compile Include="UCO\LabUCO.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Trigger\B1Form\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Data\LabFormDataSet.xsc">

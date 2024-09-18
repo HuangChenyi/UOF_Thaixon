@@ -53,7 +53,7 @@ public partial class WKF_OptionalFields_OrderInfo : WKF_FormManagement_VersionFi
         {
 			//回傳字串
 			//此字串的內容將會被表單拿來當做條件判斷的值
-			return String.Empty;
+			return rnumAmout.Value.ToString();
         }
     }
 
@@ -216,6 +216,25 @@ public partial class WKF_OptionalFields_OrderInfo : WKF_FormManagement_VersionFi
             } 
             #endregion
         }
+    }
+
+    public string CheckedData(string applicant, double num)
+    {
+        UserUCO userUCO = new UserUCO();
+        EBUser user = userUCO.GetEBUser(applicant);
+
+        if(user.JobTitle == "員工" && Convert.ToDecimal(num)>50)
+        {
+            return "員工申請金額不可大於50";
+        }
+
+        if (user.JobTitle == "經理" && Convert.ToDecimal(num) > 70)
+        {
+            return "經理申請金額不可大於70";
+        }
+
+        return "";
+
     }
 
     protected void btnSelectOrder_Click(object sender, EventArgs e)
