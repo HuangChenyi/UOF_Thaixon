@@ -55,5 +55,16 @@ namespace Training.Properties {
                 return ((string)(this["NORTHWNDConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=UOF_Thaixon;User ID=UOFDEV;Password=Pa$$w0rd;Max Po" +
+            "ol Size=300;TrustServerCertificate=True")]
+        public string UOF_ThaixonConnectionString {
+            get {
+                return ((string)(this["UOF_ThaixonConnectionString"]));
+            }
+        }
     }
 }

@@ -20,4 +20,14 @@
     <Resource Name="vi" Value="範例WEBPART" />
     <Resource Name="id" Value="範例WEBPART" />
   </CustomControl>
+
+  <CustomControl ControlType="CDS_WebUserControl" ControlPath="~/CDS/WebUserControl.ascx" DefaultTitle="今日天氣 (資料來源：台灣中央氣象署)" TitleStyle="i" ZoneIndex="0">
+    <Resource Name="zh-CN" Value="今日天气 (数据源：台湾中央气象署)" />
+    <Resource Name="zh-TW" Value="今日天氣 (資料來源：台灣中央氣象署)" />
+    <Resource Name="en-US" Value="Today Weather Forecast (From：Taiwan CWA)" />
+    <Resource Name="vi" Value="Today Weather Forecast (From：Taiwan CWA)" />
+    <Resource Name="id" Value="Today Weather Forecast (From：Taiwan CWA)" />
+    <Resource Name="mt-MT" Value="Today Weather Forecast (From：Taiwan CWA)" />
+    <Resource Name="ja-JP" Value="本日天気（データ：台湾気象庁）" />
+  </CustomControl>
 </CustomControls>

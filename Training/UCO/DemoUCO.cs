@@ -61,5 +61,19 @@ namespace Training.UCO
             m_DemoPO.UpdateFormResult(docNbr, formResult);
         }
 
+        public SapB1DataSet GetSapB1Form()
+        {
+            return m_DemoPO.GetSapB1Form();
+        }
+
+        internal string GetFormVersionId(string formName)
+        {
+            return m_DemoPO.GetFormVersionId(formName);
+        }
+
+        internal void UpdateSapB1FormStatus(int docEntry, string status)
+        {
+            m_DemoPO.UpdateSapB1FormStatus(docEntry, status);
+        }
     }
 }

@@ -54,7 +54,7 @@
     <asp:CustomValidator ID="CustomValidator1" runat="server"
         ClientValidationFunction="CheckedData" Display="Dynamic"
         ErrorMessage="Your Msg"></asp:CustomValidator>
-    <asp:Button ID="btnAdd" runat="server" Text="Add"
+    <asp:Button ID="btnAdd" runat="server" Text="Add" CausesValidation="false"
         OnClick="btnAdd_Click" />
 </asp:Content>
 

@@ -10,6 +10,23 @@ namespace Training.PO
 {
     internal class DemoPO :Ede.Uof.Utility.Data.BasePersistentObject
     {
+
+        internal DataTable GetGoLiveData(string id)
+        {
+
+            string GTConnectStr= System.Configuration.
+                ConfigurationManager.ConnectionStrings["GT_GOLIVE"].ConnectionString;
+            m_db=new Ede.Uof.Utility.Data.DatabaseHelper(GTConnectStr);
+            string cmdTxt = @"SELECT * FROM TB_DEMO_GO_LIVE
+                            WNERE ID=@ID";
+
+            this.m_db.AddParameter("@ID", id);
+
+            DataTable dt = new DataTable();
+            dt.Load(this.m_db.ExecuteReader(cmdTxt));
+
+            return dt;
+        }
    
         internal DataTable GetUserData(string groupId)
         {
@@ -173,6 +190,7 @@ namespace Training.PO
 
         internal OrderDataSet GetOrderList(string customerID)
         {
+            
             string connStr= System.Configuration.ConfigurationManager.ConnectionStrings["connTOERP"].ConnectionString;
             m_db = new Ede.Uof.Utility.Data.DatabaseHelper(connStr);
 
@@ -235,6 +253,54 @@ WHERE OrderID = @OrderID";
 
             m_db = new Ede.Uof.Utility.Data.DatabaseHelper();
             return ds;
+        }
+
+        internal SapB1DataSet GetSapB1Form()
+        {
+            string cmdTxt = @"SELECT [DocEntry]
+      ,[DocNum]
+      ,[DocDate]
+      ,[DocDueDate]
+      ,[CardCode]
+      ,[CardName]
+      ,[NumAtCard]
+      ,[DocCur]
+      ,[DocTotal]
+      ,[DocTotalFC]
+      ,[SlpCode]
+      ,[DeptCode]
+      ,[STATUS]
+  FROM [dbo].[SAPB1_OINV_APPROVALS_PENDING]
+  WHERE STATUS=2
+";
+
+            SapB1DataSet ds = new SapB1DataSet();
+            ds.Load(this.m_db.ExecuteReader(cmdTxt), LoadOption.OverwriteChanges,
+                ds.SAPB1_OINV_APPROVALS_PENDING);
+
+            return ds;
+        }
+
+        internal string GetFormVersionId(string formName)
+        {
+            string cmdTxt = @"SELECT USING_VERSION_ID FROM TB_WKF_FORM
+WHERE FORM_NAME=@FORM_NAME";
+
+            this.m_db.AddParameter("@FORM_NAME", formName);
+
+            return this.m_db.ExecuteScalar(cmdTxt).ToString();
+        }
+
+        internal void UpdateSapB1FormStatus(int docEntry, string status)
+        {
+            string cmdTxt = @"UPDATE [dbo].[SAPB1_OINV_APPROVALS_PENDING]
+    SET [STATUS] = @STATUS
+    WHERE DocEntry=@DocEntry";
+
+            this.m_db.AddParameter("@STATUS", status);
+            this.m_db.AddParameter("@DocEntry", docEntry);
+
+            this.m_db.ExecuteNonQuery(cmdTxt);
         }
     }
 }

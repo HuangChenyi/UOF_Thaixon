@@ -1,0 +1,32 @@
+﻿<Event eventID="e46a6afb-ca8e-4939-84fa-4c4b232b0457" LogTime="2024/12/17 14:37:45" User="" Url="" Assembly="Training, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;ReturnValue&gt;
+  &lt;Status&gt;1&lt;/Status&gt;
+  &lt;FormNumber&gt;1001&lt;/FormNumber&gt;
+  &lt;TaskId&gt;2b681830-4fd0-4c8e-ab69-9167e86e3d18&lt;/TaskId&gt;
+&lt;/ReturnValue&gt;
+</Event>
+<Event eventID="3dca8ff8-8f52-4b3b-b58d-3b5b71bf113b" LogTime="2024/12/17 14:39:07" User="" Url="" Assembly="Training, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;ReturnValue&gt;
+  &lt;Status&gt;1&lt;/Status&gt;
+  &lt;FormNumber&gt;1001&lt;/FormNumber&gt;
+  &lt;TaskId&gt;38278e05-1bad-4a91-8e70-313896147c87&lt;/TaskId&gt;
+&lt;/ReturnValue&gt;
+</Event>
+<Event eventID="ec92ac18-41ac-4c86-a484-18c4df51a884" LogTime="2024/12/17 14:39:07" User="" Url="" Assembly="Training, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;ReturnValue&gt;
+  &lt;Status&gt;1&lt;/Status&gt;
+  &lt;FormNumber&gt;1002&lt;/FormNumber&gt;
+  &lt;TaskId&gt;baafc34c-04cf-4006-9374-a5fa920b7717&lt;/TaskId&gt;
+&lt;/ReturnValue&gt;
+</Event>
+<Event eventID="d6400d52-93f1-4dfa-bfeb-ecdb79685270" LogTime="2024/12/17 14:41:01" User="" Url="" Assembly="Training, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;ReturnValue&gt;
+  &lt;Status&gt;1&lt;/Status&gt;
+  &lt;FormNumber&gt;1003&lt;/FormNumber&gt;
+  &lt;TaskId&gt;f91a88ca-9349-4efa-8f27-d82660883262&lt;/TaskId&gt;
+&lt;/ReturnValue&gt;
+</Event>
