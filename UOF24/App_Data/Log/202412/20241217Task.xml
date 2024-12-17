@@ -561,3 +561,728 @@ Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
 <Event eventID="69f645d6-542e-44b6-bf52-fd8bb3188dc2" LogTime="2024/12/17 15:16:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
 Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
 </Event>
+<Event eventID="b3f81cf0-7f86-4503-8ced-0753994af0e2" LogTime="2024/12/17 15:20:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="f87f9575-e05f-408f-b86d-8a33fdde66b2" LogTime="2024/12/17 15:20:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="ccc0f13e-5399-4600-b0bd-c15a3da41ef4" LogTime="2024/12/17 15:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="24d28daf-b4f4-43bb-b6de-7e2ddaede18a" LogTime="2024/12/17 15:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="1c05e5d7-ded9-47d9-9da3-dbb0d4a06f47" LogTime="2024/12/17 15:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="02c2f9bd-2d64-4a75-9f36-149330b8308a" LogTime="2024/12/17 15:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="b7ce74f6-6ec0-475d-924e-29f94838fc76" LogTime="2024/12/17 15:20:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="cba2da46-bc99-4be0-8274-4dc5fe5bcadf" LogTime="2024/12/17 15:20:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="94789b72-f3fe-46f5-a95f-210abfeff7bf" LogTime="2024/12/17 15:20:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="e93ae3b6-0aa2-4990-be55-0ac90e52e03a" LogTime="2024/12/17 15:20:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="df1602a5-2469-4d55-92d3-a2d3fa93a899" LogTime="2024/12/17 15:20:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="4c90a816-bb93-4dc9-9dea-b6c376e93f1c" LogTime="2024/12/17 15:21:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="e1e4ae69-8c12-492c-81a0-64347e4190e7" LogTime="2024/12/17 15:25:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="e37c91ea-8c6c-419e-95e4-ca6c270562fc" LogTime="2024/12/17 15:25:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="912b6417-e646-4f45-a1f8-52cddf12becb" LogTime="2024/12/17 15:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="0656da91-d7a7-4fd5-a65c-b7352194969c" LogTime="2024/12/17 15:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="3c4d5f6b-1579-47b2-a898-8410ce00e445" LogTime="2024/12/17 15:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="cd88163d-e739-4b80-bb50-b32140f0d64b" LogTime="2024/12/17 15:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="a143dfde-edb4-4180-a5dc-a8d55b6296c7" LogTime="2024/12/17 15:25:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="2b5be946-4a25-4fec-8566-d6165b9c0390" LogTime="2024/12/17 15:25:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="26316731-1154-4102-bfbd-936a4771c7b7" LogTime="2024/12/17 15:25:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="505a561f-7022-46ac-894a-86ac122d7751" LogTime="2024/12/17 15:26:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="5924a7e3-f06b-4534-b1e6-d1963403727b" LogTime="2024/12/17 15:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is started
+</Event>
+<Event eventID="bec94109-6d76-4a83-8a2c-00d3ab5eafad" LogTime="2024/12/17 15:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="8b2d2fdb-16c5-4be6-9d99-797065ac68ed" LogTime="2024/12/17 15:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is successed
+</Event>
+<Event eventID="f097e03a-e5ce-470c-af13-d7ac8efd6f05" LogTime="2024/12/17 15:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="5aa9dafa-81cf-49a6-8e91-27b861dc0caf" LogTime="2024/12/17 15:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="a00f2d51-4266-43ad-a434-a348b3cd0599" LogTime="2024/12/17 15:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="a420d1e3-7748-49c7-abd7-6d6a11e8da6f" LogTime="2024/12/17 15:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="06c56318-9b19-43f2-aaba-ba2515b631af" LogTime="2024/12/17 15:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="ad74c71a-4cd6-453f-a39a-045152d21add" LogTime="2024/12/17 15:30:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="ba99a1e8-95c2-4b50-a9cf-4104a80553b5" LogTime="2024/12/17 15:30:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="41ff08f5-bc4e-495e-b870-f96fc414a838" LogTime="2024/12/17 15:30:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="4f6d260b-afd9-4864-97c9-5884d3c71c02" LogTime="2024/12/17 15:30:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="4cbc4835-9826-4358-ad6d-d725a839e04d" LogTime="2024/12/17 15:30:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="9b1f1532-5aa2-46f6-9753-c91045b2f3ef" LogTime="2024/12/17 15:31:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="8646a687-ff69-4d87-8689-a43f7b070305" LogTime="2024/12/17 15:35:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="bdb518cd-2df4-4a1b-93ec-644d708258b8" LogTime="2024/12/17 15:35:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="fa997c7a-bdaa-4196-a3a8-5e881f65fed0" LogTime="2024/12/17 15:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="0c83d848-fc8d-4d6a-a9e9-bec9223980b1" LogTime="2024/12/17 15:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="490b8523-3d5a-4076-b872-dae62495a8a4" LogTime="2024/12/17 15:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="8c66a4c8-a5a2-4d25-8b75-3a574bc6b82a" LogTime="2024/12/17 15:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="76dbee62-ed02-4608-bb03-d9578968d4b9" LogTime="2024/12/17 15:35:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="12d548b2-c622-407d-8127-e4132c17af74" LogTime="2024/12/17 15:35:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="54f35d35-dd33-4d78-8f42-49bd89615df2" LogTime="2024/12/17 15:35:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="d724a918-d2a6-442c-9c76-fc420c76b15f" LogTime="2024/12/17 15:36:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="1bdd884a-ac8c-497f-8cd0-0a7851a311ae" LogTime="2024/12/17 15:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="f07f4c44-54ee-4abf-92df-68dec82eb0dd" LogTime="2024/12/17 15:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.AgentBadgeTask is started
+</Event>
+<Event eventID="a89ad6c0-8b34-4c3d-a43b-d4d2a42b9ccb" LogTime="2024/12/17 15:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="1be6eba9-7f43-406b-9547-17975470109d" LogTime="2024/12/17 15:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.AgentBadgeTask is successed
+</Event>
+<Event eventID="0f7eb3c4-6bdd-49c9-b55d-65329bd8366e" LogTime="2024/12/17 15:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="a4860ee6-e251-4644-99cd-bd89418bf733" LogTime="2024/12/17 15:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="b58bdb3a-b88f-456b-b789-cd8f90cb3f76" LogTime="2024/12/17 15:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="d7457b7e-883c-451c-a59f-f935f4e54064" LogTime="2024/12/17 15:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="c04eb14c-2d6f-48d1-8d44-4e957a9d8023" LogTime="2024/12/17 15:40:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="5c9829b0-c56b-49e5-8957-558c602e5b3a" LogTime="2024/12/17 15:40:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="9e816bda-5c88-4f4c-8ea1-9052cf667940" LogTime="2024/12/17 15:40:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="b220e1a4-2a32-4994-ad80-5b43aa7edfa4" LogTime="2024/12/17 15:40:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="e53b0217-2f71-45fa-88eb-ccf3cd5f53e8" LogTime="2024/12/17 15:40:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="07c9ba89-d675-424a-adbf-57b9c812ca41" LogTime="2024/12/17 15:41:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="fa0f44c6-c02b-4bf6-b62a-1958c171def2" LogTime="2024/12/17 15:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="56c95a06-d4e2-417a-b722-5bfbbdd11806" LogTime="2024/12/17 15:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is started
+</Event>
+<Event eventID="c86b4f69-5860-45dd-a19b-74540c7f026c" LogTime="2024/12/17 15:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="c7552700-4dbf-4861-b9e6-bb78bde5b865" LogTime="2024/12/17 15:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is successed
+</Event>
+<Event eventID="9e72ec26-4b18-4518-8e59-7ca20dc2e0cd" LogTime="2024/12/17 15:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="2e21aa13-0682-43dc-9074-d4f6164afb09" LogTime="2024/12/17 15:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="aab217b9-5af6-47ba-a912-04fe3bd6e69e" LogTime="2024/12/17 15:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="75e0a9b8-9641-47af-bd12-b8345cce3276" LogTime="2024/12/17 15:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="1194ab61-4813-460b-867d-84bb2d670204" LogTime="2024/12/17 15:45:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="e0c0f845-6b9b-4567-8db2-35f411e72c56" LogTime="2024/12/17 15:45:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="6781ca3f-c913-4f15-b9c2-01d6244417e3" LogTime="2024/12/17 15:45:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="082d9964-a6c6-4308-b33a-3cb041854127" LogTime="2024/12/17 15:46:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="38778a7f-bc5e-43c4-8c25-5d1aba106d2a" LogTime="2024/12/17 15:50:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="f77b87a6-7b19-4f72-8620-9aeb2076c9d9" LogTime="2024/12/17 15:50:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="607c93eb-47f1-41ab-992d-c268d064be23" LogTime="2024/12/17 15:50:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="a9536618-6179-4a95-885d-e7d56c1eb1ff" LogTime="2024/12/17 15:50:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="8a1d852a-004c-4def-bc61-86c70b6a087f" LogTime="2024/12/17 15:50:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="f51ef4cf-369a-4c7e-a8a6-ff66c1108d08" LogTime="2024/12/17 15:50:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="f2a665b1-553a-4ef8-984c-d672b10f0c66" LogTime="2024/12/17 15:50:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="044c7a75-22b2-4c99-b118-d4eae7984305" LogTime="2024/12/17 15:50:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="6d6d9523-18f7-47d1-ab02-0db983c88ba6" LogTime="2024/12/17 15:50:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="ab830011-bb84-4872-80f2-dcbb272ba5e3" LogTime="2024/12/17 15:50:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="68d5f906-9a01-4502-a8a7-0d01e09732cb" LogTime="2024/12/17 15:50:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="d921e5f6-8a82-4ed9-bca1-1aec8ab439c8" LogTime="2024/12/17 15:51:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="f74b5384-d3d0-460f-a629-43ae9c69173f" LogTime="2024/12/17 15:55:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="d6d773eb-786c-4f07-b25b-a6914249834e" LogTime="2024/12/17 15:55:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="d6398163-947b-4c76-ab19-7ff7263c7fba" LogTime="2024/12/17 15:55:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="d6cfc3e3-ff81-48f4-827d-d5ec5955f4e7" LogTime="2024/12/17 15:55:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="6b13c96b-62f2-429b-b41e-cf2aca3d047c" LogTime="2024/12/17 15:55:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="631013d7-89f0-4d04-a479-eb0ac6e7cd91" LogTime="2024/12/17 15:55:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="7379d8e8-d611-4328-8796-094827029c2d" LogTime="2024/12/17 15:55:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="34426c1a-d0fb-472f-a473-af527caed2ce" LogTime="2024/12/17 15:55:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="6190fdf4-a6ea-4542-b054-8fe82ac3cc1c" LogTime="2024/12/17 15:55:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="35abc61a-4ef7-47b5-84a1-315e85f3b751" LogTime="2024/12/17 15:56:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="ceca32d6-9799-4542-83af-9b76003f2c9b" LogTime="2024/12/17 16:00:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="c858d6a0-301d-4793-8695-a04e5b5de188" LogTime="2024/12/17 16:00:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.LogIn.LogOnlineUserTask is started
+</Event>
+<Event eventID="45f62490-2cb9-4bef-8d2c-de278d42951e" LogTime="2024/12/17 16:00:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is started
+</Event>
+<Event eventID="9d35116b-17da-4560-b5f1-fcc22ab490ba" LogTime="2024/12/17 16:00:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="ea8719db-c373-416a-82dc-592c15081f82" LogTime="2024/12/17 16:00:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is successed
+</Event>
+<Event eventID="4b6c67bc-4f98-490c-9c76-92bc2ff0ba31" LogTime="2024/12/17 16:00:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.LogIn.LogOnlineUserTask is failed
+Parameters: refire = False, unscheduleFiringTrigger = False, unscheduleAllTriggers = False 
+ Quartz.JobExecutionException: Job threw an unhandled exception. ---&gt; Quartz.SchedulerException: Job threw an unhandled exception. ---&gt; System.Net.WebException: 下載 http://localhost/UOF_Training/Webservice/EIP/LogOnlineUserService.asmx 時發生錯誤。 ---&gt; System.Net.WebException: 要求失敗，HTTP 狀態 404 : Not Found。
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Web.Services.Discovery.DiscoveryClientProtocol.Download(String&amp; url, String&amp; contentType)
+   於 System.Web.Services.Discovery.DiscoveryReference.Resolve()
+   於 System.Web.Services.Discovery.DiscoveryDocumentReference.get_Document()
+   於 System.Web.Services.Protocols.SoapHttpClientProtocol.Discover()
+   於 Ede.Uof.EIP.LogIn.LogOnlineUserTask.Run(String[] args) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.LogIn\LogOnlineUserTask.cs: 行 25
+   於 Ede.Uof.Utility.Task.BaseTask.Execute(IJobExecutionContext context) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Task\BaseTask.cs: 行 46
+   於 Quartz.Core.JobRunShell.Run() 於 c:\projects\quartznet\src\Quartz\Core\JobRunShell.cs: 行 187
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 --- [See nested exception: Quartz.SchedulerException: Job threw an unhandled exception. ---&gt; System.Net.WebException: 下載 http://localhost/UOF_Training/Webservice/EIP/LogOnlineUserService.asmx 時發生錯誤。 ---&gt; System.Net.WebException: 要求失敗，HTTP 狀態 404 : Not Found。
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Web.Services.Discovery.DiscoveryClientProtocol.Download(String&amp; url, String&amp; contentType)
+   於 System.Web.Services.Discovery.DiscoveryReference.Resolve()
+   於 System.Web.Services.Discovery.DiscoveryDocumentReference.get_Document()
+   於 System.Web.Services.Protocols.SoapHttpClientProtocol.Discover()
+   於 Ede.Uof.EIP.LogIn.LogOnlineUserTask.Run(String[] args) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.LogIn\LogOnlineUserTask.cs: 行 25
+   於 Ede.Uof.Utility.Task.BaseTask.Execute(IJobExecutionContext context) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Task\BaseTask.cs: 行 46
+   於 Quartz.Core.JobRunShell.Run() 於 c:\projects\quartznet\src\Quartz\Core\JobRunShell.cs: 行 187
+   --- 內部例外狀況堆疊追蹤的結尾 --- [See nested exception: System.Net.WebException: 下載 http://localhost/UOF_Training/Webservice/EIP/LogOnlineUserService.asmx 時發生錯誤。 ---&gt; System.Net.WebException: 要求失敗，HTTP 狀態 404 : Not Found。
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Web.Services.Discovery.DiscoveryClientProtocol.Download(String&amp; url, String&amp; contentType)
+   於 System.Web.Services.Discovery.DiscoveryReference.Resolve()
+   於 System.Web.Services.Discovery.DiscoveryDocumentReference.get_Document()
+   於 System.Web.Services.Protocols.SoapHttpClientProtocol.Discover()
+   於 Ede.Uof.EIP.LogIn.LogOnlineUserTask.Run(String[] args) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\EIP\Ede.Uof.EIP.LogIn\LogOnlineUserTask.cs: 行 25
+   於 Ede.Uof.Utility.Task.BaseTask.Execute(IJobExecutionContext context) 於 Z:\Builds\20\UofAgile\3.Setup\src\Lib\Utility\Ede.Uof.Utility.Task\BaseTask.cs: 行 46
+   於 Quartz.Core.JobRunShell.Run() 於 c:\projects\quartznet\src\Quartz\Core\JobRunShell.cs: 行 187]]
+</Event>
+<Event eventID="70c6bbff-fe0a-47fb-adcd-88a7dd80e551" LogTime="2024/12/17 16:00:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="8e813cc9-43fa-4cd6-8981-97f8d1c7ffa4" LogTime="2024/12/17 16:00:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="f8c3c951-9c1e-4ec7-90b3-76da65d0b201" LogTime="2024/12/17 16:00:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="b8ec948f-0c85-4f70-8bb5-f24de08cc5cb" LogTime="2024/12/17 16:00:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="c5442276-6a25-4dca-9676-cca77807acf9" LogTime="2024/12/17 16:00:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="2d340821-61af-4144-a069-a959bdd9af17" LogTime="2024/12/17 16:00:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="8a6cdcf7-3ebb-47d1-a6f4-bb82ade45dc9" LogTime="2024/12/17 16:00:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="ef23c065-11f4-4c85-b7bc-88d137462540" LogTime="2024/12/17 16:00:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="13cb2422-de00-42a5-89bf-46c6f97e54cd" LogTime="2024/12/17 16:00:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="760a153e-fcfd-40b4-8383-59c5bb328063" LogTime="2024/12/17 16:01:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="542182e0-2dd6-4fb4-8429-d5a51930842d" LogTime="2024/12/17 16:05:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="af3d5884-261e-451a-9808-98dc4197f791" LogTime="2024/12/17 16:05:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.TimeoutFormNootify is started
+</Event>
+<Event eventID="ef812648-beb6-49e9-af75-2bdb4998bf4c" LogTime="2024/12/17 16:05:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="19db5930-6501-41fb-affc-fd24fb03429c" LogTime="2024/12/17 16:05:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.TimeoutFormNootify is successed
+</Event>
+<Event eventID="81edad52-94da-4567-a0e3-e946276ede35" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.DMS.DMSActiveStatusTask is started
+</Event>
+<Event eventID="3f4a79e0-bfe8-4844-b263-1c5c92eefe77" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Bulletin.AutoBulletinPublishTrigger is started
+</Event>
+<Event eventID="e00fc1fc-32e5-45f3-96bc-88543ff23730" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="f5a5b8e1-b449-4937-9659-a4c604508765" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="e34f5e3f-c1d9-4c3c-993a-c33adf256902" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.DMS.DMSActiveStatusTask is successed
+</Event>
+<Event eventID="9fa9322e-8c0e-4d35-b22c-e643aedc56aa" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Bulletin.AutoBulletinPublishTrigger is successed
+</Event>
+<Event eventID="5e8ba96d-c6a9-4936-90e8-664018c3636b" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="471d4ba7-530c-41d9-abd9-172e02161a8c" LogTime="2024/12/17 16:05:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="cb9279e8-85cb-4e3c-9777-fc7198cfb23b" LogTime="2024/12/17 16:05:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.DMS.DMSDocBeforeInvalidTask is started
+</Event>
+<Event eventID="af244482-03e3-4008-950a-ef94abca5605" LogTime="2024/12/17 16:05:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.PMS.TimeoutTask is started
+</Event>
+<Event eventID="5654bfe3-15a7-4d6f-86dc-5b6550dd1d46" LogTime="2024/12/17 16:05:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.Design.AutoVersionIssue is started
+</Event>
+<Event eventID="22f300e7-bf89-4567-a307-1f0332d46b5f" LogTime="2024/12/17 16:05:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.DMS.DMSDocBeforeInvalidTask is successed
+</Event>
+<Event eventID="7b63c351-ed1d-4320-83bc-06d22dd89379" LogTime="2024/12/17 16:05:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.Design.AutoVersionIssue is successed
+</Event>
+<Event eventID="47595600-fed4-4261-8771-8b6d739b42ba" LogTime="2024/12/17 16:05:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.PMS.TimeoutTask is successed
+</Event>
+<Event eventID="b5f5d842-27fe-40d5-844f-7a8bbbb27dc3" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.DMS.DMSDocCheckOutLimitTask is started
+</Event>
+<Event eventID="e1e1cd82-e891-407a-b206-1abdf4fa54fd" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="5685cf8f-a5cf-4b62-8199-61dc489e2020" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.DMS.DMSDocCheckOutLimitTask is successed
+</Event>
+<Event eventID="b85d9fc8-5d4c-4d10-b0cf-85202ac58abc" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.CycleFormNotify is started
+</Event>
+<Event eventID="ec27be88-2137-4321-a481-44ed7b6ee8ca" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="5e55d9d0-3ceb-4417-8645-b0b9550b5563" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Settlement.Daily.Task is started
+</Event>
+<Event eventID="0ad4c6d5-6354-46a9-a9be-6b681e56b38f" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="59fe35f4-b03a-4e5d-9e22-3a07eb777a57" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Settlement.Daily.Task is successed
+</Event>
+<Event eventID="d1484b80-fb37-40b4-8c0c-645e55f946e7" LogTime="2024/12/17 16:05:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.CycleFormNotify is successed
+</Event>
+<Event eventID="c5263116-037c-4389-a1ea-47f979997f3d" LogTime="2024/12/17 16:06:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="7263107b-2c6d-428e-a45d-5ebd35a57dfa" LogTime="2024/12/17 16:10:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="74ea386b-df7d-4690-b859-18a2645140c8" LogTime="2024/12/17 16:10:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.AgentBadgeTask is started
+</Event>
+<Event eventID="f473989c-ae53-40ae-a812-383e2a022832" LogTime="2024/12/17 16:10:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="e349fa55-ee22-4999-a49d-55e853b348ad" LogTime="2024/12/17 16:10:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.AgentBadgeTask is successed
+</Event>
+<Event eventID="3b39d0ba-213d-4af1-a32b-e0028ad1df3b" LogTime="2024/12/17 16:10:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="a76102f9-9f39-4a0c-8e74-8d9f53c88c05" LogTime="2024/12/17 16:10:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="0d4d8688-e156-44a6-933d-7cde6679cbf2" LogTime="2024/12/17 16:10:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="4475b7f7-708b-421b-80e2-dcb56c789d0a" LogTime="2024/12/17 16:10:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="71799496-d625-4247-9503-aa26f188c966" LogTime="2024/12/17 16:10:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="0b9b9ac3-6889-4069-a578-98434a767c62" LogTime="2024/12/17 16:10:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="1214b90f-0d51-4eba-a259-12f00b5335d4" LogTime="2024/12/17 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="e474b0ac-3571-4739-a16d-07792ea5e9a4" LogTime="2024/12/17 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="33f215c7-5c12-4910-bf50-caf79f4af9f3" LogTime="2024/12/17 16:10:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="1cb42e0d-50ed-4bbd-a9bb-6c91b9b09047" LogTime="2024/12/17 16:11:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="60c1efd4-14c1-4198-b766-704a96d0fa49" LogTime="2024/12/17 16:15:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is started
+</Event>
+<Event eventID="44c448c4-5f4c-492d-bab3-8bb8848776f1" LogTime="2024/12/17 16:15:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="01960eeb-081e-4b6b-80a6-14b366729206" LogTime="2024/12/17 16:15:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is successed
+</Event>
+<Event eventID="ffb1d254-0c1e-431b-b023-0de0fe028196" LogTime="2024/12/17 16:15:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="a1c2a637-dfb8-4d07-822d-5a53c18e4687" LogTime="2024/12/17 16:15:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="aa50d39a-e6c0-4740-9bfc-44d72f032b54" LogTime="2024/12/17 16:15:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="6c8276c6-62dc-4ddb-b964-81ce303abfaa" LogTime="2024/12/17 16:15:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="c8b80ab8-b84a-4cf3-8018-5d9f3e250847" LogTime="2024/12/17 16:15:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="05868975-0be9-4d37-9ac4-37b70fd51f40" LogTime="2024/12/17 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="5cfaac34-577a-462a-9762-166470583cb6" LogTime="2024/12/17 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="2885930f-5914-41d2-bae9-8366bad5b7bb" LogTime="2024/12/17 16:15:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="a2ea21c4-32ee-4bda-a19d-3fe084f4b8b2" LogTime="2024/12/17 16:16:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="962bb2e5-2cb0-43b3-9d2e-12ed28bafc2c" LogTime="2024/12/17 16:20:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="cb65f035-49b1-444a-975f-beb24076514c" LogTime="2024/12/17 16:20:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="20d14fb3-34fa-497b-ab8c-fa0eaa2b977a" LogTime="2024/12/17 16:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="39148f48-2056-4a46-9fe6-811aad7b44f9" LogTime="2024/12/17 16:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="d157de49-1c29-4c9d-977b-e5be41e64170" LogTime="2024/12/17 16:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="cdfeaedb-8080-491e-add8-d108dc0a03a4" LogTime="2024/12/17 16:20:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="e70c0771-2b3d-4017-9dd6-739ed733e59d" LogTime="2024/12/17 16:20:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="8fcb4d65-7696-4a02-accc-f286dc771257" LogTime="2024/12/17 16:20:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="1f1ecaa4-f3ff-4707-9c25-d2af39f4275b" LogTime="2024/12/17 16:20:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="a21058c7-a003-4a3f-aeda-3d46ee231dc3" LogTime="2024/12/17 16:20:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="7ec2b0d2-8097-49a2-b025-1e4b5562c5d3" LogTime="2024/12/17 16:20:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="3841d4cd-54a4-442e-82a8-8c01e63798b0" LogTime="2024/12/17 16:21:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="fce0e8f2-7160-4bdb-b98e-0c61ee9005b7" LogTime="2024/12/17 16:25:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="d4453565-164a-482e-a46d-4f45984ee391" LogTime="2024/12/17 16:25:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="12868067-aa38-4526-998d-3f756dc32aeb" LogTime="2024/12/17 16:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="1b38319f-8695-48ae-b301-9188f99dbff6" LogTime="2024/12/17 16:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="3992abde-dfba-4ee1-bca8-b88fe99b851a" LogTime="2024/12/17 16:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="0e18dbef-448d-4e30-87ab-51f64d6b2d31" LogTime="2024/12/17 16:25:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="49e376a8-3b82-4c1d-b06f-fb43b5318fd4" LogTime="2024/12/17 16:25:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="e3ed309a-4585-449f-8764-668451e7dfb2" LogTime="2024/12/17 16:25:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="05027024-d1d4-46c0-99ee-2409e0366bf4" LogTime="2024/12/17 16:25:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="ef24c5c9-6ccd-4b61-ab95-eed20c485524" LogTime="2024/12/17 16:26:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="1bb40656-390c-4bf5-b5dd-f0da75952536" LogTime="2024/12/17 16:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="1237cdd0-78e0-4350-9dc3-b8f52491c29a" LogTime="2024/12/17 16:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is started
+</Event>
+<Event eventID="77e9ee99-4e92-475a-b0c7-4acdde418e5b" LogTime="2024/12/17 16:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="4fc7d455-209c-407d-ac6b-e426142520c4" LogTime="2024/12/17 16:30:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is successed
+</Event>
+<Event eventID="ef71614c-9a6d-4688-ba00-3f93eb07187f" LogTime="2024/12/17 16:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="c753bdac-2791-4e15-8206-0009a68ac059" LogTime="2024/12/17 16:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="495e4411-888f-44e2-a81b-97b213fbc3df" LogTime="2024/12/17 16:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="e878a5d1-5210-482d-b48f-351a9dc9d2e7" LogTime="2024/12/17 16:30:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="ddb0ec92-c552-4234-ad29-a6b0971c8c6b" LogTime="2024/12/17 16:30:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="ac2e0dee-ec76-42e7-980d-92d0849f260d" LogTime="2024/12/17 16:30:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="d1313a24-27c2-4ade-99f8-26d719d3ed43" LogTime="2024/12/17 16:30:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="1dc7bdf7-01fc-42d2-83df-db84427ca25b" LogTime="2024/12/17 16:30:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="7164e92f-ca19-48a7-bd4d-fb8c0bb88d39" LogTime="2024/12/17 16:30:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="be0dcf43-6de7-48dd-8447-3f4e3a3903d6" LogTime="2024/12/17 16:31:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="d824be20-98b8-42b5-9905-dc5139cdfc33" LogTime="2024/12/17 16:35:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="6ef9470f-fd29-45a2-bbf5-6611225d0e1c" LogTime="2024/12/17 16:35:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="a4f506ff-b943-4a72-99e3-ddb952baca48" LogTime="2024/12/17 16:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="3fa605da-99d1-4d59-9032-ede84391bb4e" LogTime="2024/12/17 16:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="41ccd7c9-0fa1-41f4-a0df-2a4e18fa899a" LogTime="2024/12/17 16:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="3e980edc-a197-4015-bb9a-52b96f28bc4c" LogTime="2024/12/17 16:35:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="1ea8741c-0183-4ea6-b450-7c4745a88ade" LogTime="2024/12/17 16:35:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="4482a7aa-0f85-4538-b236-4519a3cd1e94" LogTime="2024/12/17 16:35:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="1cc30a49-0189-4251-8c7a-8c59abc81d72" LogTime="2024/12/17 16:35:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="81a8db8d-93a8-4598-850d-a9c4e4a77f38" LogTime="2024/12/17 16:36:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="b3118f3a-cd23-4b25-b682-83e26726710e" LogTime="2024/12/17 16:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="7fff3268-a4a3-4c22-8c54-c84eaa2d2101" LogTime="2024/12/17 16:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.AgentBadgeTask is started
+</Event>
+<Event eventID="d4e14250-9289-432e-995b-0e0be3ddafd1" LogTime="2024/12/17 16:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="2cbaeac6-d18d-4b3f-811e-a5b7e84eb0e3" LogTime="2024/12/17 16:40:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.AgentBadgeTask is successed
+</Event>
+<Event eventID="d52cfca5-7db9-4741-87c6-6f041bd8eeeb" LogTime="2024/12/17 16:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="b0e97791-8c24-4c4c-9a19-dea333234dc8" LogTime="2024/12/17 16:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="0a8317bc-8317-4033-9d49-03040a888f97" LogTime="2024/12/17 16:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="b37cb4eb-a411-4927-a705-7b39f7003dda" LogTime="2024/12/17 16:40:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>
+<Event eventID="93bc91c3-2853-4469-a1f8-31ab448649d8" LogTime="2024/12/17 16:40:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is started
+</Event>
+<Event eventID="45126123-6352-4a95-b983-5dd0eb97d288" LogTime="2024/12/17 16:40:30" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.Task.Dynamic.WatchTimeoutTask is successed
+</Event>
+<Event eventID="5ba17cdb-27c0-486d-8360-dab04626497b" LogTime="2024/12/17 16:40:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is started
+</Event>
+<Event eventID="ba362005-68ad-4647-9653-e612a0d365e1" LogTime="2024/12/17 16:40:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is started
+</Event>
+<Event eventID="830c4e11-9692-45e0-9359-da782f0e2f50" LogTime="2024/12/17 16:40:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.CloseQusTask is successed
+</Event>
+<Event eventID="423f9674-6159-4822-9aca-1da279e931fc" LogTime="2024/12/17 16:41:45" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.Utility.FileCenter.V3.Task.TransportTask is successed
+</Event>
+<Event eventID="1deb9935-3125-417f-bdf6-97ba5752d971" LogTime="2024/12/17 16:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is started
+</Event>
+<Event eventID="9a1215b0-c749-4afd-9264-4cd53d4dba48" LogTime="2024/12/17 16:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is started
+</Event>
+<Event eventID="26f4d432-cd32-4a66-ae36-a1dbf31bfa63" LogTime="2024/12/17 16:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Duty.Punch.ExternalPunchTask is successed
+</Event>
+<Event eventID="15b668b8-e7da-4dda-90df-d4258885b353" LogTime="2024/12/17 16:45:00" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.QUE.SendQueNoticeTask is successed
+</Event>
+<Event eventID="43874333-8568-49ff-b933-5cbe89f7a9a5" LogTime="2024/12/17 16:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is started
+</Event>
+<Event eventID="2d4289d7-a7d8-4456-89d6-2e32e9d2a10b" LogTime="2024/12/17 16:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is started
+</Event>
+<Event eventID="87c6ee1f-725d-4cff-a887-d6dd2c9c518b" LogTime="2024/12/17 16:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.EIP.Schedule.Meeting.SendMeetingNoticeTask is successed
+</Event>
+<Event eventID="cd40f524-3051-4421-ab92-09267b440e26" LogTime="2024/12/17 16:45:15" User="" Url="" Assembly="Ede.Uof.Utility.Task.Engine, Version=24.0.8398.52406, Culture=neutral, PublicKeyToken=null">
+Task:Ede.Uof.WKF.SpeedSignTask is successed
+</Event>

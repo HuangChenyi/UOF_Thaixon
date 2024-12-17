@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using Training.PO;
 using Training.Data;
+using Ede.Uof.EIP.Organization.Util;
 
 namespace Training.UCO
 {
@@ -74,6 +75,10 @@ namespace Training.UCO
         internal void UpdateSapB1FormStatus(int docEntry, string status)
         {
             m_DemoPO.UpdateSapB1FormStatus(docEntry, status);
+            UserUCO userUCO = new UserUCO();
+            var uid= userUCO.GetGUIDByEmpNo("3815");
+            var ebUser = userUCO.GetEBUser(uid);
+            var account = ebUser.Account;
         }
     }
 }

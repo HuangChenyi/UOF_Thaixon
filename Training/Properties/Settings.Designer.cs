@@ -66,5 +66,25 @@ namespace Training.Properties {
                 return ((string)(this["UOF_ThaixonConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/UOF_Thaixon/PublicAPI/System/Authentication.asmx")]
+        public string Training_Auth_Authentication {
+            get {
+                return ((string)(this["Training_Auth_Authentication"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/UOF_Thaixon/PublicAPI/DMS/Dms.asmx")]
+        public string Training_DMS_Dms {
+            get {
+                return ((string)(this["Training_DMS_Dms"]));
+            }
+        }
     }
 }

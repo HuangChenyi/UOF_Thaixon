@@ -34,5 +34,11 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=.;Initial Catalog=UOF_Thaixon;User ID=UOFDEV;Password=Pa$$w0rd;Max Pool Size=300;TrustServerCertificate=True</Value>
     </Setting>
+    <Setting Name="Training_Auth_Authentication" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF_Thaixon/PublicAPI/System/Authentication.asmx</Value>
+    </Setting>
+    <Setting Name="Training_DMS_Dms" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/UOF_Thaixon/PublicAPI/DMS/Dms.asmx</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
